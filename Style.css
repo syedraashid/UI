@@ -1,0 +1,102 @@
+*{
+  margin: 0%;
+  padding: 0%;
+
+}
+header{
+  background-image: url("1.jpg");
+  height: 60vh;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li{
+  display: inline;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+  border: 1px solid transparent;
+  padding: 5px 20px;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+  background-color: rgb(23, 12, 12);
+  color: rgb(113, 28, 28);
+}
+.head h1{
+  color: white;
+  float: left;
+  width: 150px;
+  height: auto;
+  padding-left: 12px;
+  padding-top: 12px;
+
+}
+.main{
+  max-width: 1400px;
+  margin: auto;
+}
+.title{
+  position: absolute;
+  top: 20%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.title h1{
+  font-size: 70px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button{
+  position: absolute;
+  top: 35%;
+  left:57%;
+  transform: translate(-70%,-50%);
+}
+.button p{
+  font-size: 20px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.search ol{
+  top: 100%;
+  left: 50%;
+  transform: translate(28%,1700%);
+}
+.search li a{
+  
+  color: red;
+  border: 1px solid white;
+  padding: 5px 20px;
+  transition: 0.6s ease;
+}
+.search li a:hover{
+  background-color: rgb(233, 220, 220);
+  color: rgb(113, 28, 28);
+}
+ol{
+  list-style-type: none;
+  margin-top: 25px;
+}
+ol li a{
+  text-decoration: none;
+  color: white;
+}
+.top{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.top .ht{
+  padding-top: 30px;
+  font-size: 30px;
+}
+.top .hb{
+  font-size: 20px;
+  padding-top: 50px;
+  
+}
